@@ -6,6 +6,11 @@ print(name)
 
 # below is the example to receive the input from the users
 
-input_name = input('what is your name : ')
+given_name = input('what is your name : ')
 
-print(f'{input_name} who learns python')
+print(f'{given_name} who learns python')
+
+price = 10
+rating = 4.9
+price = rating
+print(price)
