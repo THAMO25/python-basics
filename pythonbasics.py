@@ -2,7 +2,7 @@
 
 print('hello world')
 
-print('0-----')
+
 print(' ||||')
 
 # python will consider the below statement as expression, string(*) to be printed 10 times
