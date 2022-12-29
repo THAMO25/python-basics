@@ -46,4 +46,24 @@ print(f'your age is {current_age}. ')
 
 # exercise 4 below is the examples for uses of string
 name = 'santhosh kumar'
-print(name[1:-1])
+print(list(name))
+
+# below is example for find the length in given strings
+cars = 'volks wagen'
+print(len(cars))
+
+# example to get upper case in strings
+cars = 'volks wagen'
+print(cars.upper())
+
+# examle to get lower case in strings
+spaces = 'JUPITER'
+print(spaces.lower())
+
+# example for replace
+watch = 'titan sonata'
+print(watch.replace('sonata', 'police'))
+
+
+
+
