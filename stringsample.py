@@ -14,3 +14,4 @@ price = 10
 rating = 4.9
 price = rating
 print(price)
+

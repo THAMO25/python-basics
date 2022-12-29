@@ -2,7 +2,6 @@
 
 print('hello world')
 
-
 print(' ||||')
 
 # python will consider the below statement as expression, string(*) to be printed 10 times
@@ -42,5 +41,9 @@ print(f'"{person_name} likes {favourite_colour}"')
 # exercise4 below i
 current_year = 2022
 birth_year = input('what is your birth year? ')
-current_age = current_year - int(birth_year)
+current_age = current_year - birth_year
 print(f'your age is {current_age}. ')
+
+# exercise 4 below is the examples for uses of string
+name = 'santhosh kumar'
+print(name[1:-1])
