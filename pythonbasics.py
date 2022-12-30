@@ -44,6 +44,10 @@ birth_year = input('what is your birth year? ')
 current_age = current_year - birth_year
 print(f'your age is {current_age}. ')
 
+# python string methods: the functions provided by the Python to operate on strings.
+# Note: Every string method does not change the original string instead returns a new string
+# with the changed attributes.
+
 # exercise 4 below is the examples for uses of string
 name = 'santhosh kumar'
 print(list(name))
@@ -64,6 +68,21 @@ print(spaces.lower())
 watch = 'titan sonata'
 print(watch.replace('sonata', 'police'))
 
+# example for buidin ROUNDOFF function
+y = 8.4
+print(round(y))
+
+# example for absolute function;it always returns a positive number
+print(abs(-899))
+
+# math functions
+import math
+
+print(math.ceil(2.3))
+print(math.factorial(5))
+import math
+
+print(math.floor(2.3))
 
 
 
