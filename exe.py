@@ -95,6 +95,51 @@ while (i >= 0):
     i = i - 1
 print(output)
 
+# finding greatest of three numbers
+num1 = float(input('enter the first number: '))
+num2 = float(input('enter the second number:'))
+num3 = float(input('enter the third number:'))
+if num1 >= num2 and num1 >= num3:
+    print('num1 is greatest')
+if num2 >= num1 and num2 >= num3:
+    print('num2 is greatest')
+if num3 >= num1 and num3 >= num2:
+    print('num3 is greatest')
+
+#armstrong number
+num = int(input('enter the number: '))
+sum = 0
+temp = num
+while temp > 0:
+    digit = temp % 10
+    sum = sum + digit ** 3
+    temp = temp // 10
+if num == sum:
+    print('the number is amstrong')
+else:
+    print('the number is not an amstrong')
+
+#replce a string space with character
+sen = input('enter the sentence: ')
+full_sen = ''
+new_ch = input('enter the character: ')
+for i in sen:
+    if i == ' ':
+        i = new_ch
+    full_sen = full_sen + i
+print('the sentence is:', full_sen)
+
+
+sen = input("Enter the sen : ")
+result = ''
+for i in sen:
+    if i in ('a', 'e', 'i', 'o', 'u'):
+        i=''
+    result=result+i
+print(result)
+
+
+
 
 
 
